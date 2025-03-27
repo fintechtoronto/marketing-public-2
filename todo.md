@@ -27,5 +27,5 @@
 
 ## Deployment Preparation
 - [x] Prepare for GitHub deployment
-- [x] Configure for AWS Amplify deployment
+- [x] Configure for Vercel deployment
 - [x] Document setup and usage instructions

@@ -60,16 +60,16 @@ npm run dev
 
 The project is configured to be deployed to GitHub at https://github.com/fintechtoronto/marketing-public-2.
 
-### AWS Amplify
+### Vercel
 
-For AWS Amplify deployment, follow these steps:
+For Vercel deployment, follow these steps:
 
-1. Connect your GitHub repository to AWS Amplify
-2. Configure build settings:
-   - Build command: `npm run build`
-   - Output directory: `.next`
-3. Add environment variables as needed
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect the Next.js project and use the settings in vercel.json
+3. Configure any environment variables needed in the Vercel dashboard
 4. Deploy the application
+
+The deployment will be automatic whenever you push changes to your GitHub repository.
 
 ## License
 
