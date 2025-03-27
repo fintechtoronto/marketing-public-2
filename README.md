@@ -60,7 +60,18 @@ npm run dev
 
 The project is configured to be deployed to GitHub at https://github.com/fintechtoronto/marketing-public-2.
 
-### Vercel
+### Netlify
+
+For Netlify deployment, follow these steps:
+
+1. Connect your GitHub repository to Netlify
+2. Netlify will use the settings in netlify.toml for configuration
+3. Configure any environment variables needed in the Netlify dashboard
+4. Deploy the application
+
+The deployment will be automatic whenever you push changes to your GitHub repository.
+
+### Vercel (Alternative)
 
 For Vercel deployment, follow these steps:
 
@@ -68,8 +79,6 @@ For Vercel deployment, follow these steps:
 2. Vercel will automatically detect the Next.js project and use the settings in vercel.json
 3. Configure any environment variables needed in the Vercel dashboard
 4. Deploy the application
-
-The deployment will be automatic whenever you push changes to your GitHub repository.
 
 ## License
 

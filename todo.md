@@ -28,4 +28,5 @@
 ## Deployment Preparation
 - [x] Prepare for GitHub deployment
 - [x] Configure for Vercel deployment
+- [x] Configure for Netlify deployment
 - [x] Document setup and usage instructions
